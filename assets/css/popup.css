@@ -1,0 +1,20 @@
+.modal-backdrop{
+  position:fixed;
+  inset:0;
+  display:flex;          /* important */
+  align-items:flex-end;  /* ⬅ modal ko neeche le aata hai */
+  justify-content:center;
+  background:rgba(0,0,0,.55);
+  z-index:9999;
+  padding-bottom:20px;   /* neeche thoda gap */
+}
+
+.modal{
+  background:#fff;
+  width:90%;
+  max-width:420px;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 8px 30px rgba(0,0,0,.25);
+  text-align:center;
+}
